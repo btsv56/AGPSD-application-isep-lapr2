@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="671.0" prefWidth="990.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lapr.project.ui.DecidePeriodServiceUI">
+   <children>
+      <Label fx:id="labSR" layoutX="61.0" layoutY="21.0" text="Service Requested: " />
+      <Label fx:id="labSS" layoutX="59.0" layoutY="343.0" text="Scheduled Time: " />
+      <Button fx:id="butReject" layoutX="238.0" layoutY="552.0" mnemonicParsing="false" onAction="#IfReject" prefHeight="31.0" prefWidth="113.0" text="Reject" />
+      <Button fx:id="butCancel" layoutX="847.0" layoutY="615.0" mnemonicParsing="false" onAction="#IfCancel" prefHeight="31.0" prefWidth="113.0" text="Cancel" />
+      <ListView fx:id="lstNum" layoutX="48.0" layoutY="94.0" prefHeight="200.0" prefWidth="113.0" />
+      <ListView fx:id="lstProv" layoutX="161.0" layoutY="94.0" prefHeight="200.0" prefWidth="113.0" />
+      <ListView fx:id="lstDur" layoutX="553.0" layoutY="94.0" prefHeight="284.0" prefWidth="152.0" />
+      <ListView fx:id="lstDesc" layoutX="701.0" layoutY="94.0" prefHeight="284.0" prefWidth="152.0" />
+      <Label layoutX="77.0" layoutY="63.0" text="Number" />
+      <Label layoutX="190.0" layoutY="63.0" text="Provider" />
+      <Label layoutX="600.0" layoutY="63.0" text="Duration" />
+      <Label layoutX="739.0" layoutY="63.0" text="Description" />
+      <TextField fx:id="txtNumCheckDurDesc" layoutX="331.0" layoutY="163.0" prefHeight="31.0" prefWidth="152.0" promptText="Number" />
+      <Label layoutX="284.0" layoutY="124.0" text="Insert Number to show Dur and Desc" />
+      <Button fx:id="ConfirmNum" layoutX="881.0" layoutY="163.0" mnemonicParsing="false" onAction="#confirmNumServiceSelected" text="Confirm" />
+      <ListView fx:id="lstDay" layoutX="39.0" layoutY="415.0" prefHeight="200.0" prefWidth="76.0" />
+      <Label layoutX="64.0" layoutY="379.0" text="Day" />
+      <ListView fx:id="lstHour" layoutX="115.0" layoutY="415.0" prefHeight="200.0" prefWidth="76.0" />
+      <Label layoutX="144.0" layoutY="379.0" text="Hour" />
+      <Label fx:id="labSelectSSbyNum" layoutX="198.0" layoutY="440.0" text="Select Scheduled Time by Number" />
+      <Label layoutX="286.0" layoutY="523.0" text="Or" />
+      <Button fx:id="butAccept" layoutX="238.0" layoutY="484.0" mnemonicParsing="false" onAction="#IfAccept" prefHeight="31.0" prefWidth="113.0" text="Accept" />
+      <Button fx:id="butShow" layoutX="369.0" layoutY="211.0" mnemonicParsing="false" onAction="#CheckDescAndDurByNum" prefHeight="31.0" prefWidth="76.0" text="Show" />
+      <ListView fx:id="lstRating" layoutX="705.0" layoutY="461.0" prefHeight="42.0" prefWidth="152.0" />
+      <Label layoutX="675.0" layoutY="430.0" text="Mean Rating of Service Provider" />
+   </children>
+</AnchorPane>

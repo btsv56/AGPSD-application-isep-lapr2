@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceOrders>
+    <ServiceOrder id="1">
+        <ProviderName>Veiga</ProviderName>
+        <Name>Veiga</Name>
+        <Distance>5324982.36669656</Distance>
+        <Category>1111 - Plubming </Category>
+        <StartDate>2020-03-02</StartDate>
+        <StartHour>14:30</StartHour>
+        <ServiceType>LimitedService</ServiceType>
+        <Street>Rua Kali</Street>
+        <PostalCode>4420-10</PostalCode>
+        <Zone>Porto</Zone>
+        <Latitude>41.1252877</Latitude>
+        <Longitude>-8.5266659</Longitude>
+    </ServiceOrder>
+    <ServiceOrder id="2">
+        <ProviderName>Veiga</ProviderName>
+        <Name>Veiga</Name>
+        <Distance>5324982.36669656</Distance>
+        <Category>1111 - Plubming </Category>
+        <StartDate>2020-03-02</StartDate>
+        <StartHour>14:30</StartHour>
+        <ServiceType>LimitedService</ServiceType>
+        <Street>Rua Kali</Street>
+        <PostalCode>4420-10</PostalCode>
+        <Zone>Porto</Zone>
+        <Latitude>41.1252877</Latitude>
+        <Longitude>-8.5266659</Longitude>
+    </ServiceOrder>
+    <ServiceOrder id="3">
+        <ProviderName>Veiga</ProviderName>
+        <Name>Veiga</Name>
+        <Distance>5324982.36669656</Distance>
+        <Category>1111 - Plubming </Category>
+        <StartDate>2020-03-02</StartDate>
+        <StartHour>14:30</StartHour>
+        <ServiceType>LimitedService</ServiceType>
+        <Street>Rua Kali</Street>
+        <PostalCode>4420-10</PostalCode>
+        <Zone>Porto</Zone>
+        <Latitude>41.1252877</Latitude>
+        <Longitude>-8.5266659</Longitude>
+    </ServiceOrder>
+    <ServiceOrder id="4">
+        <ProviderName>Veiga</ProviderName>
+        <Name>Veiga</Name>
+        <Distance>5324982.36669656</Distance>
+        <Category>1111 - Plubming </Category>
+        <StartDate>2020-03-02</StartDate>
+        <StartHour>14:30</StartHour>
+        <ServiceType>LimitedService</ServiceType>
+        <Street>Rua Kali</Street>
+        <PostalCode>4420-10</PostalCode>
+        <Zone>Porto</Zone>
+        <Latitude>41.1252877</Latitude>
+        <Longitude>-8.5266659</Longitude>
+    </ServiceOrder>
+</ServiceOrders>
